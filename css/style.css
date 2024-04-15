@@ -1,0 +1,74 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-image: url(../img/planodefundo.png);
+    background-size: contain;
+    height: 100vh;
+    background-color: #76a076;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Titulo{
+    font-size: 60px;
+}
+
+
+#quadrobranco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 35px;
+    width: 70vw;
+    height: 85vh;
+    margin-top: 10px;
+}
+
+#icone {
+    width: 60px;
+}
+
+#divbusca {
+    background-color: #D4FEDD;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    width: 530px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtbusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    width: 470px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFEFE8;
+    border-radius: 10px;
+    width: 50%;
+    height: 40%;
+    margin-top: 20px;
+}
+
+#btnBusca {
+    width: 20px;
+}
