@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+
+* {
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     margin: 0%;
     padding: 0%;
@@ -17,6 +25,7 @@ main {
 
 #Titulo{
     font-size: 60px;
+    font-weight: 600;
 }
 
 
@@ -67,8 +76,30 @@ main {
     width: 50%;
     height: 40%;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2;
 }
 
 #btnBusca {
     width: 20px;
+}
+
+h3 {
+    font-family: "Kaisei Decol", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.prgf {
+    margin-bottom: 1;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#gitimg {
+    width: 15px;
 }
